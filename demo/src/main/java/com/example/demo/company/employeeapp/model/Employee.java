@@ -5,7 +5,7 @@ import java.util.Date;
 
 @Entity
 @Table(name = "employeeee")   // Matches exact table name
-public class Employee {
+public class Employee{
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
